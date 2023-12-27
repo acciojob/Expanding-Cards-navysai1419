@@ -1,4 +1,3 @@
-//your JS code here. If required.
  function togglePanel(panelNumber) {
     // Remove 'active' class from all panels
     document.querySelectorAll('.panel').forEach(panel => {
