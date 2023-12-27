@@ -1,7 +1,8 @@
 //your JS code here. If required.
 function expandCard(panelNumber) {
         // Reset all panels to default state
-        for (let i = 1; i <= 5; i++) {
+        for (let i = 1; i <= 5
+			 ; i++) {
             const panel = document.getElementById(`panel-${i}`);
             panel.classList.remove('active');
         }
