@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            display: flex;
+            overflow: hidden;
+        }
+
+        .panel {
+            flex: 1;
+            min-width: 200px;
+            cursor: pointer;
+            transition: flex 0.7s;
+        }
+
+        .panel img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .img-text {
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .active {
+            flex: 5;
+        }
